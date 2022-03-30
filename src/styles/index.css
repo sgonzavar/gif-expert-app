@@ -4,7 +4,6 @@
   color: white;
 }
 
-
 body {
   padding: 60px;
 }
@@ -13,4 +12,28 @@ input {
   width: 100%;
   font-size: 1.2rem;
   color: aliceblue;
+}
+
+.card {
+  width: min-content;
+  align-content: center;
+  border: 1px solid grey;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 0 10px 10px 0;
+}
+
+.card h2 {
+  text-align: center;
+  padding: 5px;
+}
+
+.card img {
+  min-width: 170px;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
